@@ -1,0 +1,17 @@
+{
+  "loan_dataset": {
+    "name": "Lending Club Loan Data",
+    "kaggle_dataset": "wordsforthewise/lending-club",
+    "url": "https://www.kaggle.com/datasets/wordsforthewise/lending-club",
+    "role": "loan-level records and final loan outcome"
+  },
+  "vietnam_macro": {
+    "api_base": "https://api.worldbank.org/v2/country/VNM/indicator",
+    "indicators": {
+      "NY.GDP.MKTP.KD.ZG": "vn_gdp_growth",
+      "FP.CPI.TOTL.ZG": "vn_inflation_rate",
+      "FB.AST.NPER.ZS": "vn_bank_npl_ratio"
+    },
+    "role": "Vietnam macroeconomic and banking context"
+  }
+}

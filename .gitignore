@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large data files (raw & processed)
+credit_risk_project/data/raw/*.csv
+credit_risk_project/data/raw/*.csv.gz
+credit_risk_project/data/processed/*.parquet
+
+# External data (can be re-downloaded)
+credit_risk_project/data/external/*.csv
+
+# Model binaries (can be retrained)
+credit_risk_project/models/*.joblib
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

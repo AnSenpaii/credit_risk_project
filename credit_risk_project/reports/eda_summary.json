@@ -1,0 +1,29 @@
+{
+  "rows": 1344949,
+  "columns": 23,
+  "default_rate": 0.19962913091871884,
+  "issue_year_min": 2007,
+  "issue_year_max": 2018,
+  "years": [
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "insights": [
+    "Cleaned dataset contains 1,344,949 completed loans used for modeling.",
+    "Overall observed default rate is 20.0%.",
+    "Issue-year coverage spans 2007–2018.",
+    "Highest yearly default rate: 2016 (23.3%).",
+    "Lowest yearly default rate: 2009 (12.6%).",
+    "Among the highest-volume purposes, 'small_business' has the highest observed default rate (29.7%)."
+  ]
+}

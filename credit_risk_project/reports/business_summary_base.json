@@ -1,0 +1,19 @@
+{
+  "PR-AUC": 0.18649401050054146,
+  "ROC-AUC": 0.41202041202041206,
+  "Precision": 0.2013888888888889,
+  "Recall": 0.7837837837837838,
+  "F1": 0.32044198895027626,
+  "Brier": 0.2179814726114273,
+  "TN": 28,
+  "FP": 115,
+  "FN": 8,
+  "TP": 29,
+  "Test top20_n": 36,
+  "Test top20_defaults_captured": 5,
+  "Test top20_capture_rate": 0.13513513513513514,
+  "Test top20_precision": 0.1388888888888889,
+  "Test top20_lift": 0.6756756756756758,
+  "random_top20_expected_capture": 0.2,
+  "top20_lift_vs_random": 0.6756756756756757
+}

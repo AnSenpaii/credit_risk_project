@@ -1,0 +1,10 @@
+{
+  "loan_file": "data\\raw\\smoke_lending_club.csv",
+  "loan_source": "Kaggle — wordsforthewise/lending-club",
+  "macro_source": "World Bank Indicators API — Vietnam (VNM)",
+  "macro_rows": 0,
+  "collected_at_utc": "2026-09-30T15:23:17+00:00",
+  "accepted_only": true,
+  "rejected_dataset_used_for_model": false,
+  "note": "Loan CSV is processed in chunks to avoid loading the full 1+ GB raw file into RAM."
+}

@@ -1,0 +1,25 @@
+{
+  "source": "World Bank Indicators API",
+  "country": "VNM",
+  "collected_at_utc": "2026-09-09T11:53:16+00:00",
+  "indicators": {
+    "vn_gdp_growth": {
+      "code": "NY.GDP.MKTP.KD.ZG",
+      "rows": 41,
+      "url": "https://api.worldbank.org/v2/country/VNM/indicator/NY.GDP.MKTP.KD.ZG?format=json&per_page=100"
+    },
+    "vn_inflation_rate": {
+      "code": "FP.CPI.TOTL.ZG",
+      "rows": 30,
+      "url": "https://api.worldbank.org/v2/country/VNM/indicator/FP.CPI.TOTL.ZG?format=json&per_page=100"
+    },
+    "vn_bank_npl_ratio": {
+      "code": "FB.AST.NPER.ZS",
+      "rows": 17,
+      "url": "https://api.worldbank.org/v2/country/VNM/indicator/FB.AST.NPER.ZS?format=json&per_page=100"
+    }
+  },
+  "errors": {},
+  "status": "success",
+  "rows": 41
+}

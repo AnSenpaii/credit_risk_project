@@ -1,0 +1,36 @@
+{
+  "pipeline_version": "3.3",
+  "raw_rows_seen": 1200,
+  "usable_rows_before_dedup": 1200,
+  "cleaned_rows_after_dedup": 1200,
+  "chunksize": 100000,
+  "columns_read": [
+    "id",
+    "issue_d",
+    "loan_status",
+    "loan_amnt",
+    "annual_inc",
+    "term",
+    "int_rate",
+    "dti",
+    "installment",
+    "emp_length",
+    "home_ownership",
+    "purpose",
+    "delinq_2yrs",
+    "inq_last_6mths",
+    "open_acc",
+    "revol_util",
+    "total_acc"
+  ],
+  "loan_status_counts_raw": {
+    "Fully Paid": 980,
+    "Charged Off": 220
+  },
+  "cleaned_issue_years": [
+    2016,
+    2017,
+    2018
+  ],
+  "streaming_write": "parquet"
+}

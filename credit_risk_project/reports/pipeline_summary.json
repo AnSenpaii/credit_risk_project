@@ -1,0 +1,33 @@
+{
+  "pipeline_version": "3.3",
+  "loan_source": "data\\raw\\smoke_lending_club.csv",
+  "rows_after_cleaning": 1200,
+  "default_rate": 0.18333333333333332,
+  "date_range": [
+    "2016-01-01",
+    "2018-12-01"
+  ],
+  "split": "chronological 70/15/15",
+  "macro_source": "World Bank API — VNM; issue_year minus 1",
+  "results_file": "reports/model_comparison_base_vs_vietnam.csv",
+  "chunk_size": 100000,
+  "max_model_train_rows": 500000,
+  "train_sizes": {
+    "base": {
+      "chronological_train_rows": 840,
+      "rows_used_for_model_fit": 840
+    },
+    "vietnam": {
+      "chronological_train_rows": 840,
+      "rows_used_for_model_fit": 840
+    }
+  },
+  "rejected_dataset_used": false,
+  "issue_years_after_cleaning": [
+    2016,
+    2017,
+    2018
+  ],
+  "issue_year_count_after_cleaning": 3,
+  "matched_vietnam_macro_rate": 0.0
+}
